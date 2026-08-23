@@ -88,30 +88,17 @@
 
 ---
 
-### 📈 Dynamic Analytics & Activity Charts
+### 📈 Dynamic Analytics & Activity Graph
 
 <div align="center">
 
-<!-- Row 1: Streak Stats & Summary Stats -->
-<img src="https://streak-stats.demolab.com/?user=SobhitJadoun&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="49%" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SobhitJadoun&theme=tokyonight" alt="Overall Stats" width="49%" />
+<!-- Streak Stats Card -->
+<img src="https://streak-stats.demolab.com?user=SobhitJadoun&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" width="85%" />
 
 <br/><br/>
 
-<!-- Row 2: Top Languages & Most Commit Language Charts -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SobhitJadoun&theme=tokyonight" alt="Languages by Repo" width="49%" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SobhitJadoun&theme=tokyonight" alt="Most Committed Language" width="49%" />
-
-<br/><br/>
-
-<!-- Row 3: Productive Time & Profile Details -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=SobhitJadoun&theme=tokyonight&utcOffset=5.5" alt="Productive Time" width="49%" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SobhitJadoun&theme=tokyonight" alt="Profile Details" width="49%" />
-
-<br/><br/>
-
-<!-- Row 4: Dynamic Contribution Activity Wave Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=SobhitJadoun&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" width="98%" />
+<!-- Full Activity Wave Chart -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=SobhitJadoun&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" width="95%" />
 
 </div>
 
