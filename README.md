@@ -88,17 +88,30 @@
 
 ---
 
-### 📈 Dynamic Analytics & Activity Graph
+### 📈 Dynamic Analytics & Activity Charts
 
 <div align="center">
 
-<!-- Streak Stats Card -->
-<img src="https://streak-stats.demolab.com?user=SobhitJadoun&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" width="85%" />
+<!-- Row 1: Profile Details & Stats -->
+<img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" width="49%" alt="Profile Details" />
+<img src="./profile-summary-card-output/tokyonight/3-stats.svg" width="49%" alt="Overall Stats" />
 
 <br/><br/>
 
-<!-- Full Activity Wave Chart -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=SobhitJadoun&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" width="95%" />
+<!-- Row 2: Languages & Commits -->
+<img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="49%" alt="Languages by Repo" />
+<img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="49%" alt="Most Committed Language" />
+
+<br/><br/>
+
+<!-- Row 3: Productive Time & Streak -->
+<img src="./profile-summary-card-output/tokyonight/4-productive-time.svg" width="49%" alt="Productive Time" />
+<img src="https://streak-stats.demolab.com?user=SobhitJadoun&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" width="49%" alt="GitHub Streak" />
+
+<br/><br/>
+
+<!-- Row 4: Contribution Activity Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=SobhitJadoun&theme=tokyo-night&hide_border=true&area=true" width="98%" alt="Contribution Graph" />
 
 </div>
 
