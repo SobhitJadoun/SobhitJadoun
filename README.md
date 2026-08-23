@@ -32,6 +32,46 @@
 
 ---
 
+### 🎮 Interactive High-IQ Terminal & Games Arena
+
+<div align="center">
+  <p><b>🕹️ Challenge 1: Playable Markdown Minesweeper</b></p>
+  <p><i>Rule: Click the cells to uncover the safe tiles. 3 Hidden Mines 💣 exist on this board. Can you clear it without triggering an explosion?</i></p>
+</div>
+
+| A | B | C | D | E |
+| :---: | :---: | :---: | :---: | :---: |
+| <details><summary>🟦</summary>1️⃣</details> | <details><summary>🟦</summary>1️⃣</details> | <details><summary>🟦</summary>1️⃣</details> | <details><summary>🟦</summary>0️⃣</details> | <details><summary>🟦</summary>0️⃣</details> |
+| <details><summary>🟦</summary>1️⃣</details> | <details><summary>🟦</summary>💣 <b>BOOM!</b></details> | <details><summary>🟦</summary>1️⃣</details> | <details><summary>🟦</summary>0️⃣</details> | <details><summary>🟦</summary>0️⃣</details> |
+| <details><summary>🟦</summary>1️⃣</details> | <details><summary>🟦</summary>1️⃣</details> | <details><summary>🟦</summary>2️⃣</details> | <details><summary>🟦</summary>1️⃣</details> | <details><summary>🟦</summary>1️⃣</details> |
+| <details><summary>🟦</summary>0️⃣</details> | <details><summary>🟦</summary>0️⃣</details> | <details><summary>🟦</summary>2️⃣</details> | <details><summary>🟦</summary>💣 <b>BOOM!</b></details> | <details><summary>🟦</summary>2️⃣</details> |
+| <details><summary>🟦</summary>0️⃣</details> | <details><summary>🟦</summary>0️⃣</details> | <details><summary>🟦</summary>1️⃣</details> | <details><summary>🟦</summary>2️⃣</details> | <details><summary>🟦</summary>💣 <b>BOOM!</b></details> |
+
+<br/>
+
+<details>
+<summary><b>🧠 Challenge 2: The Cryptographic Codebreaker Puzzle (Click to Expand)</b></summary>
+
+```bash
+# HIGH-IQ HACKER CHALLENGE: Decrypt the Flag
+# CIPHERTEXT:  "Vm0wd2QyUXlVWGxWV0d4V1YwZDRWMVl3WkRSV01WbDNXa2M1VjFSc1pHeFdiVFZvVmpGYWRHVkdWbFZXYkZwVlZtcEdZV015U2tWVWJHaG9UV3N3ZUZOVU1Eaz0="
+# HINT: Multi-layer recursion encoding (Base64 x4)
+```
+
+- **Step 1:** Decode Base64 layer by layer.
+- **Step 2:** What is the final secret message revealed?
+
+<details>
+<summary>🔍 Reveal Solution</summary>
+
+> **Decrypted Flag:** `RootAccessGranted2026` 🚀  
+> *Great job! You possess elite analytical problem-solving skills.*
+
+</details>
+</details>
+
+---
+
 ### 💫 About Me
 
 - 🔭 **Currently Building:** High-performance WordPress optimization tools and full-stack web applications.
