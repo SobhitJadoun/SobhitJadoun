@@ -1,197 +1,130 @@
-<h1 align="center">Hi 👋, I'm Sobhit Jadoun</h1>
-<h3 align="center">Full Stack Web Developer | Cyber Security Enthusiast</h3>
+<div align="center">
 
+<!-- Animated Header -->
+<a href="https://github.com/SobhitJadoun">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=6366F1&center=true&vCenter=true&random=false&width=500&lines=Hi+%F0%9F%91%8B%2C+I'm+Sobhit+Jadoun;Full+Stack+%26+WordPress+Developer;Cyber+Security+Enthusiast;Building+Scalable+Web+Solutions" alt="Typing SVG" />
+</a>
+
+<p align="center">
+  <b>Passionate Software Engineer specializing in WordPress Core & Plugin Engineering, Modern Web Applications, and Web Security.</b>
+</p>
+
+<!-- Social & Contact Badges -->
 <p align="center">
   <a href="https://in.linkedin.com/in/sobhitjadoun" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://official-nitrohacker.blogspot.com" target="_blank">
-    <img src="https://img.shields.io/badge/Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white" />
+    <img src="https://img.shields.io/badge/Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white" alt="Blog" />
   </a>
-  <a href="https://instagram.com/sobhitjadoun" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  <a href="https://www.instagram.com/sobhitjadoun/" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
-  <a href="https://stackoverflow.com/users/22467689" target="_blank">
-    <img src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=white" />
+  <a href="mailto:sobhitjadoun@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
 
----
+<!-- Profile Views -->
+![](https://komarev.com/ghpvc/?username=SobhitJadoun&color=blueviolet&style=flat-square&label=Profile+Views)
 
-### 🚀 About Me
-
-- 🔭 Currently working on **Web Development** projects
-- 🤝 Looking to collaborate on **Web Development** & open-source projects
-- 🔐 Ask me about **Cyber Security**
-- 🌱 Always learning new technologies and tools
-- ⚡ Fun fact: *I'm lazy but smart* 😄
+</div>
 
 ---
 
-### 🛠️ Tech Stack
+### 💫 About Me
 
-**Languages**
+- 🔭 **Currently Building:** High-performance WordPress optimization tools and full-stack web applications.
+- 💻 **Core Expertise:** PHP, WordPress Plugin Architecture, Modern JavaScript, REST APIs, and Database Design.
+- 🛡️ **Security Focus:** Web Application Security, Vulnerability Assessment, and Secure Coding Practices.
+- 🤝 **Open For:** Collaborations on Open Source projects, SaaS platforms, and enterprise WordPress plugins.
+- ⚡ **Fun Fact:** When I'm not coding, I explore ethical hacking labs and performance optimization techniques.
 
+---
+
+### 🛠️ Tech Stack & Tools
+
+#### **Languages & Frameworks**
 <p>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
-<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
-<img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"/>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white" alt="WordPress" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
 </p>
 
-**Frontend**
-
+#### **Database & Backend Tools**
 <p>
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D"/>
-<img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white"/>
-<img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-<img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Composer-885630?style=flat-square&logo=composer&logoColor=white" alt="Composer" />
+  <img src="https://img.shields.io/badge/Apache-D22128?style=flat-square&logo=apache&logoColor=white" alt="Apache" />
+  <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" alt="Nginx" />
 </p>
 
-**Backend & Databases**
-
+#### **Cyber Security & DevOps**
 <p>
-<img src="https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white"/>
-<img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/>
-<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
-<img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white"/>
-</p>
-
-**Cloud, DevOps & Tools**
-
-<p>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white"/>
-<img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-<img src="https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=for-the-badge&logo=raspberry-pi&logoColor=white"/>
-</p>
-
-**Data & Design**
-
-<p>
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
-<img src="https://img.shields.io/badge/Adobe_Illustrator-FF9A00?style=for-the-badge&logo=adobeillustrator&logoColor=white"/>
-<img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kali-linux&logoColor=white" alt="Kali Linux" />
+  <img src="https://img.shields.io/badge/OWASP-000000?style=flat-square&logo=owasp&logoColor=white" alt="OWASP" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" alt="Postman" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" alt="VS Code" />
 </p>
 
 ---
 
-### 📌 Featured Projects
+### 🌟 Featured Projects
 
-| Project | Description |
-|---|---|
-| [Digital Library Management](https://github.com/SobhitJadoun/Digital-library-management) | A system to manage library records digitally |
-| [Blood Bank](https://github.com/SobhitJadoun/blood_bank) | Web app for blood donation/request management |
-| [Validation Login Page](https://github.com/SobhitJadoun/Validation-Login-Page) | Login page with input validation |
-| [Portfolio](https://github.com/SobhitJadoun/portfolio) | My personal developer portfolio site |
-
----
-
-### 📊 GitHub Stats (Live)
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SobhitJadoun&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" width="48%"/>
-  <img src="https://streak-stats.demolab.com?user=SobhitJadoun&theme=tokyonight&hide_border=true" width="48%"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SobhitJadoun&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" width="48%"/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SobhitJadoun&theme=tokyo-night&hide_border=true&bg_color=1a1b27" width="48%"/>
-</p>
-
-> 💡 If any card above shows "Error" or looks blank, it's a temporary outage on the free stats service (github-readme-stats / streak-stats) — GitHub caches images, so try a hard refresh, or wait a few minutes and reload.
+| Project | Tech Stack | Highlights |
+| :--- | :--- | :--- |
+| **[Media Optimizer](https://github.com/SobhitJadoun/Image-optimization)** | `PHP` `WordPress` `WebP/AVIF` `Composer` | Advanced WordPress plugin for dynamic image compression, next-gen WebP/AVIF conversions, and automated background media processing. |
+| **[Digital Library Management](https://github.com/SobhitJadoun/Digital-library-management)** | `PHP` `MySQL` `Bootstrap` | A full-featured library record management portal for tracking books, issue workflows, and user permissions. |
+| **[B24U - Blood Donation Portal](https://github.com/SobhitJadoun/B24U_Blood24You_CorePHP)** | `PHP` `MySQL` `JavaScript` | Online emergency blood, plasma, and platelet donor connection and request matching platform. |
+| **[Secure Login & Validation](https://github.com/SobhitJadoun/Validation-Login-Page)** | `HTML5` `CSS3` `JavaScript` | Modern and accessible client-side authentication layout with dynamic regex validation. |
 
 ---
 
-### 🐍 Contribution Snake (auto-updates daily)
+### 📈 Dynamic Analytics & Activity Charts
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/SobhitJadoun/SobhitJadoun/output/github-contribution-grid-snake.svg" width="90%"/>
-</p>
+<div align="center">
 
-<details>
-<summary>⚙️ How to enable the snake animation (one-time setup)</summary>
+<!-- Row 1: Streak Stats & Summary Stats -->
+<img src="https://streak-stats.demolab.com/?user=SobhitJadoun&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="49%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SobhitJadoun&theme=tokyonight" alt="Overall Stats" width="49%" />
 
-This snake image only appears after you add a small GitHub Action to your `SobhitJadoun/SobhitJadoun` repo:
+<br/><br/>
 
-1. In that repo, create the file `.github/workflows/snake.yml`
-2. Paste this in:
+<!-- Row 2: Top Languages & Most Commit Language Charts -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SobhitJadoun&theme=tokyonight" alt="Languages by Repo" width="49%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SobhitJadoun&theme=tokyonight" alt="Most Committed Language" width="49%" />
 
-```yaml
-name: Generate Snake
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-  push:
-    branches: [main]
+<br/><br/>
 
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: SobhitJadoun
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: actions/upload-artifact@v4
-        with:
-          name: snake
-          path: dist/*.svg
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ '{{' }} secrets.GITHUB_TOKEN {{ '}}' }}
-```
+<!-- Row 3: Productive Time & Profile Details -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=SobhitJadoun&theme=tokyonight&utcOffset=5.5" alt="Productive Time" width="49%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SobhitJadoun&theme=tokyonight" alt="Profile Details" width="49%" />
 
-3. Commit it — GitHub Actions will run it automatically and generate the snake SVG on an `output` branch.
-4. It will then render live in this README, and refresh itself every day.
-</details>
+<br/><br/>
+
+<!-- Row 4: Dynamic Contribution Activity Wave Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=SobhitJadoun&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" width="98%" />
+
+</div>
 
 ---
 
-### 📈 Contribution Activity Chart
+### 💬 Let's Connect!
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SobhitJadoun&custom_title=Contribution%20Activity&theme=react-dark&hide_border=true&area=true" width="95%"/>
-</p>
-
-### 📅 3D Contribution Calendar
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/SobhitJadoun/SobhitJadoun/output/profile-3d-contrib/profile-night-rainbow.svg" width="95%"/>
-</p>
-
-<details>
-<summary>⚙️ How to enable the 3D contribution calendar</summary>
-
-Add another job (or a separate workflow file `.github/workflows/contrib3d.yml`) using the `yoshi389111/github-profile-3d-contrib` action, output to the same `output` branch used above. This renders a rotating 3D bar chart of your daily commits, fully auto-updating.
-</details>
-
----
-
-### 🌐 Connect With Me
-
-<p align="center">
-  <a href="https://in.linkedin.com/in/sobhitjadoun"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://instagram.com/sobhitjadoun"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
-  <a href="https://facebook.com/Sobhitjadoun"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/></a>
-  <a href="https://stackoverflow.com/users/22467689"><img src="https://img.shields.io/badge/StackOverflow-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=white"/></a>
+  Whether you have an interesting project, an open-source opportunity, or just want to chat tech & security:
 </p>
 
 <p align="center">
-  <img src="https://visitcount.itsvg.in/api?id=SobhitJadoun&icon=0&color=0" />
+  <a href="https://in.linkedin.com/in/sobhitjadoun">
+    <img src="https://img.shields.io/badge/Let's_Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect LinkedIn"/>
+  </a>
 </p>
