@@ -32,25 +32,90 @@
 
 ---
 
-### 🎮 Interactive High-IQ Terminal & Games Arena
+### 🎮 Interactive High-IQ Gaming & Puzzle Arena
 
 <div align="center">
-  <p><b>🕹️ Challenge 1: Playable Markdown Minesweeper</b></p>
-  <p><i>Rule: Click the cells to uncover the safe tiles. 3 Hidden Mines 💣 exist on this board. Can you clear it without triggering an explosion?</i></p>
+  <p><b>🕹️ Game 1: Playable Markdown Minesweeper</b></p>
+  <p><i>Click the blue tiles to uncover the board. Beware: 3 Hidden Mines 💣 exist!</i></p>
 </div>
 
 | A | B | C | D | E |
 | :---: | :---: | :---: | :---: | :---: |
 | <details><summary>🟦</summary>1️⃣</details> | <details><summary>🟦</summary>1️⃣</details> | <details><summary>🟦</summary>1️⃣</details> | <details><summary>🟦</summary>0️⃣</details> | <details><summary>🟦</summary>0️⃣</details> |
-| <details><summary>🟦</summary>1️⃣</details> | <details><summary>🟦</summary>💣 <b>BOOM!</b></details> | <details><summary>🟦</summary>1️⃣</details> | <details><summary>🟦</summary>0️⃣</details> | <details><summary>🟦</summary>0️⃣</details> |
+| <details><summary>🟦</summary>1️⃣</details> | <details><summary>🟦</summary>💣 <b>BOOM! Game Over</b></details> | <details><summary>🟦</summary>1️⃣</details> | <details><summary>🟦</summary>0️⃣</details> | <details><summary>🟦</summary>0️⃣</details> |
 | <details><summary>🟦</summary>1️⃣</details> | <details><summary>🟦</summary>1️⃣</details> | <details><summary>🟦</summary>2️⃣</details> | <details><summary>🟦</summary>1️⃣</details> | <details><summary>🟦</summary>1️⃣</details> |
-| <details><summary>🟦</summary>0️⃣</details> | <details><summary>🟦</summary>0️⃣</details> | <details><summary>🟦</summary>2️⃣</details> | <details><summary>🟦</summary>💣 <b>BOOM!</b></details> | <details><summary>🟦</summary>2️⃣</details> |
-| <details><summary>🟦</summary>0️⃣</details> | <details><summary>🟦</summary>0️⃣</details> | <details><summary>🟦</summary>1️⃣</details> | <details><summary>🟦</summary>2️⃣</details> | <details><summary>🟦</summary>💣 <b>BOOM!</b></details> |
+| <details><summary>🟦</summary>0️⃣</details> | <details><summary>🟦</summary>0️⃣</details> | <details><summary>🟦</summary>2️⃣</details> | <details><summary>🟦</summary>💣 <b>BOOM! Game Over</b></details> | <details><summary>🟦</summary>2️⃣</details> |
+| <details><summary>🟦</summary>0️⃣</details> | <details><summary>🟦</summary>0️⃣</details> | <details><summary>🟦</summary>1️⃣</details> | <details><summary>🟦</summary>2️⃣</details> | <details><summary>🟦</summary>💣 <b>BOOM! Game Over</b></details> |
 
 <br/>
 
 <details>
-<summary><b>🧠 Challenge 2: The Cryptographic Codebreaker Puzzle (Click to Expand)</b></summary>
+<summary><b>🔐 Game 2: The Mastermind Safe Cracker (Logic Deduction)</b></summary>
+
+#### 🎯 Can you deduce the 3-digit master passcode from these 5 clues?
+
+| Clue # | Test Code | Result |
+| :---: | :---: | :--- |
+| **1** | `6 8 2` | **One number is correct and in the correct place.** |
+| **2** | `6 1 4` | **One number is correct but in the wrong place.** |
+| **3** | `2 0 6` | **Two numbers are correct but both in wrong places.** |
+| **4** | `7 3 8` | **Nothing is correct (all 3 numbers are false).** |
+| **5** | `7 8 0` | **One number is correct but in the wrong place.** |
+
+**Choose your guess:**
+- [ ] A) `0 4 2`
+- [ ] B) `0 1 2`
+- [ ] C) `0 4 6`
+- [ ] D) `2 4 0`
+
+<details>
+<summary>🔓 Open Safe & Reveal Solution</summary>
+
+> 🔑 **Correct Code:** `0 4 2` (Option A) 🎉  
+> **Deduction:**  
+> - From Clue 4: `7`, `3`, `8` are eliminated.  
+> - From Clue 5: Since `7` and `8` are eliminated, `0` is in the code (not at 3rd place).  
+> - From Clue 1: `8` is eliminated, so either `6` is 1st or `2` is 3rd. From Clue 3, `6` is not 1st or 3rd, so `2` is in the 3rd place (`_ _ 2`).  
+> - From Clue 2: `6` is eliminated, `4` must be in the 2nd place since it was in wrong place originally.  
+> - Final Code: `0 4 2`!  
+
+</details>
+</details>
+
+<br/>
+
+<details>
+<summary><b>♟️ Game 3: Grandmaster Chess Tactics (Find Mate in 2)</b></summary>
+
+#### 👑 Position: White to Move and Deliver Checkmate in 2 Moves!
+
+```text
+    a   b   c   d   e   f   g   h
+  +---+---+---+---+---+---+---+---+
+8 | r | . | b | q | . | r | k | . | 8   (Black King on g8)
+7 | p | p | p | . | . | p | p | p | 7
+6 | . | . | n | . | . | . | . | . | 6
+5 | . | . | . | . | . | . | . | Q | 5   (White Queen on h5)
+4 | . | . | B | . | . | . | . | . | 4   (White Bishop on c4)
+3 | . | . | . | . | . | . | . | . | 3
+2 | P | P | P | . | . | P | P | P | 2
+1 | R | . | B | . | K | . | N | R | 1
+  +---+---+---+---+---+---+---+---+
+    a   b   c   d   e   f   g   h
+```
+
+**What is your move as White?**
+
+- <details><summary>Option 1: Play 1. Qxf7+ (Queen takes f7 pawn)</summary>❌ <b>BLUNDER!</b> Black defends with <code>1... Rxf7</code> and captures your Queen. You lose.</details>
+- <details><summary>Option 2: Play 1. Bxf7+ (Bishop takes f7 pawn)</summary>⚠️ <b>Inaccurate!</b> Black plays <code>1... Kh8</code> and avoids immediate mate.</details>
+- <details><summary>Option 3: Play 1. Qxh7+ (Queen sacrifices on h7!)</summary>🏆 <b>BRILLIANT MOVE (!!)</b><br/>After <code>1... Kxh7</code>, White plays <code>2. Bxf7# CHECKMATE!</code> (Discovered double check with Bishop & Rook). Black cannot escape!</details>
+
+</details>
+
+<br/>
+
+<details>
+<summary><b>⚡ Game 4: The Cyber Cryptographic Codebreaker</b></summary>
 
 ```bash
 # HIGH-IQ HACKER CHALLENGE: Decrypt the Flag
