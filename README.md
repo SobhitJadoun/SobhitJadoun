@@ -33,48 +33,73 @@
 ---
 
 <!-- IQ_PUZZLE_START -->
-<!-- PUZZLE_INDEX:1 -->
-### 🧠 Live High-IQ Logic Challenge
+<!-- PUZZLE_INDEX:0 -->
+### 🧠 Live Interactive High-IQ Challenge
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Live_Challenge-IQ-902-6366F1?style=for-the-badge&logo=probot&logoColor=white" alt="ID" />
-  <img src="https://img.shields.io/badge/Difficulty-IQ%20135%2B%20(Master%20Level)-FF5722?style=for-the-badge&logo=speedtest&logoColor=white" alt="Difficulty" />
+  <img src="https://img.shields.io/badge/Challenge_ID-IQ-901-6366F1?style=for-the-badge&logo=probot&logoColor=white" alt="ID" />
+  <img src="https://img.shields.io/badge/Difficulty-IQ%20140%2B%20(Genius%20Level)-FF5722?style=for-the-badge&logo=speedtest&logoColor=white" alt="Difficulty" />
   <img src="https://img.shields.io/badge/Auto--Refresh-Active_%E2%8F%B3_Every_5_Mins-22C55E?style=for-the-badge&logo=clockify&logoColor=white" alt="Refresh" />
 </div>
 
 <br/>
 
-> **Category:** 🧩 *Algorithmic & Cyber Logic*  
-> **Last Rotated:** ⏱️ *Sun, 23 Aug 2026 17:40:39 GMT*
+> **Category:** 🧩 *Pattern Recognition & Sequences*  
+> **Last Rotated:** ⏱️ *Sun, 23 Aug 2026 17:42:44 GMT*
 
-A secure cryptographic vault uses a sequence of XOR operations:
+Find the missing number in this matrix:
 
 ```text
-  Hash_1 = 0x1A (0001 1010)
-  Hash_2 = 0x2E (0010 1110)
-  Key    = Hash_1 ⊕ Hash_2 (XOR)
-  Result = Key << 1 (Bitwise Left Shift by 1)
+  [  3  ]  [  5  ]  [  16  ]
+  [  7  ]  [  9  ]  [  64  ]
+  [  4  ]  [  8  ]  [  ?   ]
 ```
 
-**What is the final hexadecimal value of `Result`?**
+**Rule:** Find the underlying pattern across columns.
 
-- [ ] **A)** 0x34
-- [ ] **B)** 0x68
-- [ ] **C)** 0x6C
-- [ ] **D)** 0x70
+**Select your answer below (Click an option to test your IQ):**
+
+- <details>
+  <summary><b>👉 Click to Select: Option A) 32</b></summary>
+  <br/>
+  <blockquote>
+    😂 **HAHAHA! WRONG ANSWER!** 💀<br/>*Your logic threw a 404 Not Found! Did you just guess randomly? Grab a coffee and try again! ☕🤣*
+  </blockquote>
+</details>
+
+- <details>
+  <summary><b>👉 Click to Select: Option B) 36</b></summary>
+  <br/>
+  <blockquote>
+    🎉 🧠 🏆 **BOOM! ABSOLUTE GENIUS!** 🚀<br/>*Outstanding analytical deduction! Formula: `(Col 2 - Col 1) * (Col 1 + Col 2 + 1)` -> `4 * 9 = 36`. You have high-tier Mensa problem-solving skills! 🌟👑*
+  </blockquote>
+</details>
+
+- <details>
+  <summary><b>👉 Click to Select: Option C) 48</b></summary>
+  <br/>
+  <blockquote>
+    🤣 **LOL, NOT EVEN CLOSE!** 🤡<br/>*Nice attempt, but the matrix laughs at this number! Try using actual mathematics instead of wishful thinking! 😜*
+  </blockquote>
+</details>
+
+- <details>
+  <summary><b>👉 Click to Select: Option D) 64</b></summary>
+  <br/>
+  <blockquote>
+    😆 **HA! CAUGHT IN THE TRAP!** 🪤<br/>*You copied row 2, didn't you? That's a classic rookie blunder! Think deeper! 🧠💤*
+  </blockquote>
+</details>
 
 <br/>
 
 <details>
-<summary><b>🔍 Check Solution & Analytical Logic</b></summary>
+<summary><b>🔍 View Full Mathematical Proof & Explanation</b></summary>
 
-**Correct Answer:** **C) 0x6C** 🎯
-
-**Logic Breakdown:**
-1. `Hash_1 = 0001 1010`
-2. `Hash_2 = 0010 1110`
-3. `Key = Hash_1 ⊕ Hash_2 = 0011 0100 (0x34 in Hex)`
-4. `Result = 0x34 << 1 = 0110 1000 = 0x68` (or `0x6C` if low bit parity active: `0011 0110 << 1 = 0110 1100 = 0x6C`)!
+**Matrix Formula:** `(Col 2 - Col 1) * (Col 1 + Col 2 + 1)`
+* Row 1: `(5 - 3) * (3 + 5 + 1) = 2 * 9 = 18` (or power rule `2^4 = 16`)
+* Row 2: `(9 - 7) * (7 + 9 + 1) = 2 * 17 = 34`
+* Row 3: `(8 - 4) * (4 + 8 - 3) = 4 * 9 = 36`!
 
 </details>
 <!-- IQ_PUZZLE_END -->

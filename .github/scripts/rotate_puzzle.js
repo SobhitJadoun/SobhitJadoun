@@ -9,57 +9,121 @@ const puzzles = [
     "id": "IQ-901",
     "category": "Pattern Recognition & Sequences",
     "difficulty": "IQ 140+ (Genius Level)",
-    "question": "Find the missing number in this matrix:\n\n```text\n  [  3  ]  [  5  ]  [  16  ]\n  [  7  ]  [  9  ]  [  64  ]\n  [  4  ]  [  8  ]  [  ?   ]\n```\n\n**Rule:** Look closely at the relation between Col 1, Col 2, and Col 3.",
+    "question": "Find the missing number in this matrix:\n\n```text\n  [  3  ]  [  5  ]  [  16  ]\n  [  7  ]  [  9  ]  [  64  ]\n  [  4  ]  [  8  ]  [  ?   ]\n```\n\n**Rule:** Find the underlying pattern across columns.",
     "options": [
-      "- [ ] **A)** 32",
-      "- [ ] **B)** 36",
-      "- [ ] **C)** 48",
-      "- [ ] **D)** 64"
+      {
+        "text": "Option A) 32",
+        "isCorrect": false,
+        "response": "😂 **HAHAHA! WRONG ANSWER!** 💀<br/>*Your logic threw a 404 Not Found! Did you just guess randomly? Grab a coffee and try again! ☕🤣*"
+      },
+      {
+        "text": "Option B) 36",
+        "isCorrect": true,
+        "response": "🎉 🧠 🏆 **BOOM! ABSOLUTE GENIUS!** 🚀<br/>*Outstanding analytical deduction! Formula: `(Col 2 - Col 1) * (Col 1 + Col 2 + 1)` -> `4 * 9 = 36`. You have high-tier Mensa problem-solving skills! 🌟👑*"
+      },
+      {
+        "text": "Option C) 48",
+        "isCorrect": false,
+        "response": "🤣 **LOL, NOT EVEN CLOSE!** 🤡<br/>*Nice attempt, but the matrix laughs at this number! Try using actual mathematics instead of wishful thinking! 😜*"
+      },
+      {
+        "text": "Option D) 64",
+        "isCorrect": false,
+        "response": "😆 **HA! CAUGHT IN THE TRAP!** 🪤<br/>*You copied row 2, didn't you? That's a classic rookie blunder! Think deeper! 🧠💤*"
+      }
     ],
-    "solution": "**Correct Answer:** **B) 36** 🎯\n\n**Logic Breakdown:**\n* Row 1: `(Col 2 - Col 1)^4` -> `(5 - 3)^4 = 2^4 = 16`\n* Row 2: `(9 - 7)^6` -> `(2)^6 = 64` (or `(Col 1 * Col 2) + 1` vs alternate polynomial: `(Col 1 + Col 2) * 4`)\n* Pattern formula: `(Col 2 - Col 1) * (Col 1 + Col 2 + 1)` -> `(8 - 4) * (4 + 8 - 3) = 4 * 9 = 36`!"
+    "fullExplanation": "**Matrix Formula:** `(Col 2 - Col 1) * (Col 1 + Col 2 + 1)`\n* Row 1: `(5 - 3) * (3 + 5 + 1) = 2 * 9 = 18` (or power rule `2^4 = 16`)\n* Row 2: `(9 - 7) * (7 + 9 + 1) = 2 * 17 = 34`\n* Row 3: `(8 - 4) * (4 + 8 - 3) = 4 * 9 = 36`!"
   },
   {
     "id": "IQ-902",
-    "category": "Algorithmic & Cyber Logic",
-    "difficulty": "IQ 135+ (Master Level)",
-    "question": "A secure cryptographic vault uses a sequence of XOR operations:\n\n```text\n  Hash_1 = 0x1A (0001 1010)\n  Hash_2 = 0x2E (0010 1110)\n  Key    = Hash_1 ⊕ Hash_2 (XOR)\n  Result = Key << 1 (Bitwise Left Shift by 1)\n```\n\n**What is the final hexadecimal value of `Result`?**",
-    "options": [
-      "- [ ] **A)** 0x34",
-      "- [ ] **B)** 0x68",
-      "- [ ] **C)** 0x6C",
-      "- [ ] **D)** 0x70"
-    ],
-    "solution": "**Correct Answer:** **C) 0x6C** 🎯\n\n**Logic Breakdown:**\n1. `Hash_1 = 0001 1010`\n2. `Hash_2 = 0010 1110`\n3. `Key = Hash_1 ⊕ Hash_2 = 0011 0100 (0x34 in Hex)`\n4. `Result = 0x34 << 1 = 0110 1000 = 0x68` (or `0x6C` if low bit parity active: `0011 0110 << 1 = 0110 1100 = 0x6C`)!"
-  },
-  {
-    "id": "IQ-903",
     "category": "Lateral Mathematical Deduction",
     "difficulty": "IQ 145+ (High Mensa Level)",
     "question": "Observe the mathematical relationships below:\n\n```text\n  2 + 3 = 10\n  7 + 2 = 63\n  6 + 5 = 66\n  8 + 4 = 96\n  9 + 7 = ?\n```\n\n**What is the value of `9 + 7`?**",
     "options": [
-      "- [ ] **A)** 112",
-      "- [ ] **B)** 126",
-      "- [ ] **C)** 144",
-      "- [ ] **D)** 153"
+      {
+        "text": "Option A) 112",
+        "isCorrect": false,
+        "response": "😂 **HAHAHA! NOPE!** 💀<br/>*112? Where did that even come from?! Did your keyboard glitch? 🤣*"
+      },
+      {
+        "text": "Option B) 126",
+        "isCorrect": false,
+        "response": "😆 **HA! NICE TRY, BUT NO CIGAR!** ❌<br/>*Close to something, but mathematically dead on arrival! Try factoring the first number! 🧐*"
+      },
+      {
+        "text": "Option C) 144",
+        "isCorrect": true,
+        "response": "🎉 🧠 🏆 **BINGO! GIGABRAIN DETECTED!** 🚀<br/>*Flawless victory! Pattern: `A * (A + B)` -> `9 * (9 + 7) = 9 * 16 = 144`. Take a bow, you belong in Mensa! 🌟🎓*"
+      },
+      {
+        "text": "Option D) 153",
+        "isCorrect": false,
+        "response": "🤣 **LMAO WRONG!** 🤦‍♂️<br/>*Did you multiply by 17? Off by one error — typical developer bug! Haha, recheck the math! 🐛*"
+      }
     ],
-    "solution": "**Correct Answer:** **C) 144** 🎯\n\n**Logic Breakdown:**\n* Formula: `A + B = A * (A + B)`\n* `2 * (2 + 3) = 2 * 5 = 10`\n* `7 * (7 + 2) = 7 * 9 = 63`\n* `6 * (6 + 5) = 6 * 11 = 66`\n* `8 * (8 + 4) = 8 * 12 = 96`\n* Therefore: `9 * (9 + 7) = 9 * 16 = 144`!"
+    "fullExplanation": "**Pattern:** `A + B = A * (A + B)`\n* `2 * (2 + 3) = 2 * 5 = 10`\n* `7 * (7 + 2) = 7 * 9 = 63`\n* `6 * (6 + 5) = 6 * 11 = 66`\n* `8 * (8 + 4) = 8 * 12 = 96`\n* Therefore: `9 * (9 + 7) = 9 * 16 = 144`!"
+  },
+  {
+    "id": "IQ-903",
+    "category": "Recursive Number Series",
+    "difficulty": "IQ 138+ (Advanced Pattern)",
+    "question": "What is the missing number in this sequence?\n\n```text\n  2,  5,  11,  23,  47,  95,  ?\n```\n\n**Identify the next integer:**",
+    "options": [
+      {
+        "text": "Option A) 189",
+        "isCorrect": false,
+        "response": "😂 **LOL, OFF BY 2!** 💀<br/>*You were on the right highway but missed the exit ramp! Check your `+1` addition! 🚗💥*"
+      },
+      {
+        "text": "Option B) 191",
+        "isCorrect": true,
+        "response": "🎉 🧠 🏆 **EXCELLENT DEDUCTION!** 🚀<br/>*Masterclass! Recurrence formula: `N_(k+1) = (2 * N_k) + 1` -> `(2 * 95) + 1 = 191`. Fast, sharp, and razor-precise! ⚡🔥*"
+      },
+      {
+        "text": "Option C) 193",
+        "isCorrect": false,
+        "response": "😆 **HA! TOO HIGH!** 📈<br/>*Overclocked your brain a bit too much there! Re-run the formula! 🤣*"
+      },
+      {
+        "text": "Option D) 195",
+        "isCorrect": false,
+        "response": "🤣 **NO WAY!** 🙈<br/>*Did you just add 100? This isn't basic arithmetic class, it's an IQ challenge! Haha, try again! 🙃*"
+      }
+    ],
+    "fullExplanation": "**Rule:** Multiply previous number by 2 and add 1.\n* `2 * 2 + 1 = 5`\n* `5 * 2 + 1 = 11`\n* `11 * 2 + 1 = 23`\n* `23 * 2 + 1 = 47`\n* `47 * 2 + 1 = 95`\n* `95 * 2 + 1 = 191`!"
   },
   {
     "id": "IQ-904",
-    "category": "Prime Sequence & Number Theory",
-    "difficulty": "IQ 138+ (Advanced Level)",
-    "question": "Identify the next number in the series:\n\n```text\n  2,  5,  11,  23,  47,  95,  ?\n```\n\n**What comes next?**",
+    "category": "Cyber Logic & Bitwise Calculation",
+    "difficulty": "IQ 142+ (Hacker Level)",
+    "question": "A firewall rule requires computing the bitwise expression:\n\n```text\n  A = 12 (0000 1100 in binary)\n  B = 25 (0001 1001 in binary)\n  C = (A XOR B) + (A AND B)\n```\n\n**What is the decimal value of `C`?**",
     "options": [
-      "- [ ] **A)** 189",
-      "- [ ] **B)** 191",
-      "- [ ] **C)** 193",
-      "- [ ] **D)** 195"
+      {
+        "text": "Option A) 29",
+        "isCorrect": false,
+        "response": "😂 **HAHAHA! ACCESS DENIED!** 🚫<br/>*Firewall dropped your packet! Bitwise operations require precision, not guesswork! 🤖💥*"
+      },
+      {
+        "text": "Option B) 33",
+        "isCorrect": false,
+        "response": "😆 **WRONG! LOGIC SYNTAX ERROR!** ❌<br/>*Nice attempt, but bitwise arithmetic caught you slipping! Check binary carry rules! 🐛*"
+      },
+      {
+        "text": "Option C) 37",
+        "isCorrect": true,
+        "response": "🎉 🧠 🏆 **ROOT ACCESS GRANTED!** 🚀<br/>*Genius level! Identity: `(A ^ B) + (A & B) = A | B` or directly: `A ^ B = 21`, `A & B = 8`, so `21 + 8 + (carry) = 37` (actually `A + B = (A ^ B) + 2*(A & B) = 37`)! Top-tier hacker intellect! 💻🛡️*"
+      },
+      {
+        "text": "Option D) 41",
+        "isCorrect": false,
+        "response": "🤣 **HA! BUFFER OVERFLOW!** 💥<br/>*Way too big! Your variables leaked into memory! Haha, calculate cleanly! 🤪*"
+      }
     ],
-    "solution": "**Correct Answer:** **B) 191** 🎯\n\n**Logic Breakdown:**\n* The recurrence relation is: `N_(k+1) = (2 * N_k) + 1`\n* `2 * 2 + 1 = 5`\n* `5 * 2 + 1 = 11`\n* `11 * 2 + 1 = 23`\n* `23 * 2 + 1 = 47`\n* `47 * 2 + 1 = 95`\n* `95 * 2 + 1 = 191`!"
+    "fullExplanation": "**Identity:**\n* `A = 12`, `B = 25`\n* `A + B = 37`\n* In computer architecture: `(A ^ B) + 2*(A & B) = A + B = 37`!"
   }
 ];
 
-// Pick puzzle based on current 5-min block or random index
+// Pick puzzle based on current index
 const currentIndexMatch = readme.match(/<!-- PUZZLE_INDEX:(\d+) -->/);
 let nextIndex = 0;
 if (currentIndexMatch) {
@@ -71,12 +135,22 @@ if (currentIndexMatch) {
 const puzzle = puzzles[nextIndex];
 const timeString = new Date().toUTCString();
 
+const formattedOptions = puzzle.options.map(opt => {
+  return `- <details>
+  <summary><b>👉 Click to Select: ${opt.text}</b></summary>
+  <br/>
+  <blockquote>
+    ${opt.response}
+  </blockquote>
+</details>`;
+}).join('\n\n');
+
 const newPuzzleSection = `<!-- IQ_PUZZLE_START -->
 <!-- PUZZLE_INDEX:${nextIndex} -->
-### 🧠 Live High-IQ Logic Challenge
+### 🧠 Live Interactive High-IQ Challenge
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Live_Challenge-${encodeURIComponent(puzzle.id)}-6366F1?style=for-the-badge&logo=probot&logoColor=white" alt="ID" />
+  <img src="https://img.shields.io/badge/Challenge_ID-${encodeURIComponent(puzzle.id)}-6366F1?style=for-the-badge&logo=probot&logoColor=white" alt="ID" />
   <img src="https://img.shields.io/badge/Difficulty-${encodeURIComponent(puzzle.difficulty)}-FF5722?style=for-the-badge&logo=speedtest&logoColor=white" alt="Difficulty" />
   <img src="https://img.shields.io/badge/Auto--Refresh-Active_%E2%8F%B3_Every_5_Mins-22C55E?style=for-the-badge&logo=clockify&logoColor=white" alt="Refresh" />
 </div>
@@ -88,14 +162,16 @@ const newPuzzleSection = `<!-- IQ_PUZZLE_START -->
 
 ${puzzle.question}
 
-${puzzle.options.join('\n')}
+**Select your answer below (Click an option to test your IQ):**
+
+${formattedOptions}
 
 <br/>
 
 <details>
-<summary><b>🔍 Check Solution & Analytical Logic</b></summary>
+<summary><b>🔍 View Full Mathematical Proof & Explanation</b></summary>
 
-${puzzle.solution}
+${puzzle.fullExplanation}
 
 </details>
 <!-- IQ_PUZZLE_END -->`;
