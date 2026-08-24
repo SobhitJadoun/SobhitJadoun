@@ -33,63 +33,59 @@
 ---
 
 <!-- IQ_PUZZLE_START -->
-<!-- PUZZLE_INDEX:1 -->
+<!-- PUZZLE_INDEX:2 -->
 ### 🧠 Live Interactive High-IQ Challenge
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Challenge_ID-IQ-902-6366F1?style=for-the-badge&logo=probot&logoColor=white" alt="ID" />
-  <img src="https://img.shields.io/badge/Difficulty-IQ%20145%2B%20(High%20Mensa%20Level)-FF5722?style=for-the-badge&logo=speedtest&logoColor=white" alt="Difficulty" />
+  <img src="https://img.shields.io/badge/Challenge_ID-IQ-903-6366F1?style=for-the-badge&logo=probot&logoColor=white" alt="ID" />
+  <img src="https://img.shields.io/badge/Difficulty-IQ%20138%2B%20(Advanced%20Pattern)-FF5722?style=for-the-badge&logo=speedtest&logoColor=white" alt="Difficulty" />
   <img src="https://img.shields.io/badge/Auto--Refresh-Active_%E2%8F%B3_Every_5_Mins-22C55E?style=for-the-badge&logo=clockify&logoColor=white" alt="Refresh" />
 </div>
 
 <br/>
 
-> **Category:** 🧩 *Lateral Mathematical Deduction*  
-> **Last Rotated:** ⏱️ *Mon, 24 Aug 2026 23:07:55 GMT*
+> **Category:** 🧩 *Recursive Number Series*  
+> **Last Rotated:** ⏱️ *Mon, 24 Aug 2026 23:32:07 GMT*
 
-Observe the mathematical relationships below:
+What is the missing number in this sequence?
 
 ```text
-  2 + 3 = 10
-  7 + 2 = 63
-  6 + 5 = 66
-  8 + 4 = 96
-  9 + 7 = ?
+  2,  5,  11,  23,  47,  95,  ?
 ```
 
-**What is the value of `9 + 7`?**
+**Identify the next integer:**
 
 **Select your answer below (Click an option to test your IQ):**
 
 - <details>
-  <summary><b>👉 Click to Select: Option A) 112</b></summary>
+  <summary><b>👉 Click to Select: Option A) 189</b></summary>
   <br/>
   <blockquote>
-    😂 **HAHAHA! NOPE!** 💀<br/>*112? Where did that even come from?! Did your keyboard glitch? 🤣*
+    😂 **LOL, OFF BY 2!** 💀<br/>*You were on the right highway but missed the exit ramp! Check your `+1` addition! 🚗💥*
   </blockquote>
 </details>
 
 - <details>
-  <summary><b>👉 Click to Select: Option B) 126</b></summary>
+  <summary><b>👉 Click to Select: Option B) 191</b></summary>
   <br/>
   <blockquote>
-    😆 **HA! NICE TRY, BUT NO CIGAR!** ❌<br/>*Close to something, but mathematically dead on arrival! Try factoring the first number! 🧐*
+    🎉 🧠 🏆 **EXCELLENT DEDUCTION!** 🚀<br/>*Masterclass! Recurrence formula: `N_(k+1) = (2 * N_k) + 1` -> `(2 * 95) + 1 = 191`. Fast, sharp, and razor-precise! ⚡🔥*
   </blockquote>
 </details>
 
 - <details>
-  <summary><b>👉 Click to Select: Option C) 144</b></summary>
+  <summary><b>👉 Click to Select: Option C) 193</b></summary>
   <br/>
   <blockquote>
-    🎉 🧠 🏆 **BINGO! GIGABRAIN DETECTED!** 🚀<br/>*Flawless victory! Pattern: `A * (A + B)` -> `9 * (9 + 7) = 9 * 16 = 144`. Take a bow, you belong in Mensa! 🌟🎓*
+    😆 **HA! TOO HIGH!** 📈<br/>*Overclocked your brain a bit too much there! Re-run the formula! 🤣*
   </blockquote>
 </details>
 
 - <details>
-  <summary><b>👉 Click to Select: Option D) 153</b></summary>
+  <summary><b>👉 Click to Select: Option D) 195</b></summary>
   <br/>
   <blockquote>
-    🤣 **LMAO WRONG!** 🤦‍♂️<br/>*Did you multiply by 17? Off by one error — typical developer bug! Haha, recheck the math! 🐛*
+    🤣 **NO WAY!** 🙈<br/>*Did you just add 100? This isn't basic arithmetic class, it's an IQ challenge! Haha, try again! 🙃*
   </blockquote>
 </details>
 
@@ -98,12 +94,13 @@ Observe the mathematical relationships below:
 <details>
 <summary><b>🔍 View Full Mathematical Proof & Explanation</b></summary>
 
-**Pattern:** `A + B = A * (A + B)`
-* `2 * (2 + 3) = 2 * 5 = 10`
-* `7 * (7 + 2) = 7 * 9 = 63`
-* `6 * (6 + 5) = 6 * 11 = 66`
-* `8 * (8 + 4) = 8 * 12 = 96`
-* Therefore: `9 * (9 + 7) = 9 * 16 = 144`!
+**Rule:** Multiply previous number by 2 and add 1.
+* `2 * 2 + 1 = 5`
+* `5 * 2 + 1 = 11`
+* `11 * 2 + 1 = 23`
+* `23 * 2 + 1 = 47`
+* `47 * 2 + 1 = 95`
+* `95 * 2 + 1 = 191`!
 
 </details>
 <!-- IQ_PUZZLE_END -->
