@@ -33,59 +33,61 @@
 ---
 
 <!-- IQ_PUZZLE_START -->
-<!-- PUZZLE_INDEX:2 -->
+<!-- PUZZLE_INDEX:3 -->
 ### 🧠 Live Interactive High-IQ Challenge
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Challenge_ID-IQ-903-6366F1?style=for-the-badge&logo=probot&logoColor=white" alt="ID" />
-  <img src="https://img.shields.io/badge/Difficulty-IQ%20138%2B%20(Advanced%20Pattern)-FF5722?style=for-the-badge&logo=speedtest&logoColor=white" alt="Difficulty" />
+  <img src="https://img.shields.io/badge/Challenge_ID-IQ-904-6366F1?style=for-the-badge&logo=probot&logoColor=white" alt="ID" />
+  <img src="https://img.shields.io/badge/Difficulty-IQ%20142%2B%20(Hacker%20Level)-FF5722?style=for-the-badge&logo=speedtest&logoColor=white" alt="Difficulty" />
   <img src="https://img.shields.io/badge/Auto--Refresh-Active_%E2%8F%B3_Every_5_Mins-22C55E?style=for-the-badge&logo=clockify&logoColor=white" alt="Refresh" />
 </div>
 
 <br/>
 
-> **Category:** 🧩 *Recursive Number Series*  
-> **Last Rotated:** ⏱️ *Mon, 24 Aug 2026 12:02:06 GMT*
+> **Category:** 🧩 *Cyber Logic & Bitwise Calculation*  
+> **Last Rotated:** ⏱️ *Mon, 24 Aug 2026 13:05:37 GMT*
 
-What is the missing number in this sequence?
+A firewall rule requires computing the bitwise expression:
 
 ```text
-  2,  5,  11,  23,  47,  95,  ?
+  A = 12 (0000 1100 in binary)
+  B = 25 (0001 1001 in binary)
+  C = (A XOR B) + (A AND B)
 ```
 
-**Identify the next integer:**
+**What is the decimal value of `C`?**
 
 **Select your answer below (Click an option to test your IQ):**
 
 - <details>
-  <summary><b>👉 Click to Select: Option A) 189</b></summary>
+  <summary><b>👉 Click to Select: Option A) 29</b></summary>
   <br/>
   <blockquote>
-    😂 **LOL, OFF BY 2!** 💀<br/>*You were on the right highway but missed the exit ramp! Check your `+1` addition! 🚗💥*
+    😂 **HAHAHA! ACCESS DENIED!** 🚫<br/>*Firewall dropped your packet! Bitwise operations require precision, not guesswork! 🤖💥*
   </blockquote>
 </details>
 
 - <details>
-  <summary><b>👉 Click to Select: Option B) 191</b></summary>
+  <summary><b>👉 Click to Select: Option B) 33</b></summary>
   <br/>
   <blockquote>
-    🎉 🧠 🏆 **EXCELLENT DEDUCTION!** 🚀<br/>*Masterclass! Recurrence formula: `N_(k+1) = (2 * N_k) + 1` -> `(2 * 95) + 1 = 191`. Fast, sharp, and razor-precise! ⚡🔥*
+    😆 **WRONG! LOGIC SYNTAX ERROR!** ❌<br/>*Nice attempt, but bitwise arithmetic caught you slipping! Check binary carry rules! 🐛*
   </blockquote>
 </details>
 
 - <details>
-  <summary><b>👉 Click to Select: Option C) 193</b></summary>
+  <summary><b>👉 Click to Select: Option C) 37</b></summary>
   <br/>
   <blockquote>
-    😆 **HA! TOO HIGH!** 📈<br/>*Overclocked your brain a bit too much there! Re-run the formula! 🤣*
+    🎉 🧠 🏆 **ROOT ACCESS GRANTED!** 🚀<br/>*Genius level! Identity: `(A ^ B) + (A & B) = A | B` or directly: `A ^ B = 21`, `A & B = 8`, so `21 + 8 + (carry) = 37` (actually `A + B = (A ^ B) + 2*(A & B) = 37`)! Top-tier hacker intellect! 💻🛡️*
   </blockquote>
 </details>
 
 - <details>
-  <summary><b>👉 Click to Select: Option D) 195</b></summary>
+  <summary><b>👉 Click to Select: Option D) 41</b></summary>
   <br/>
   <blockquote>
-    🤣 **NO WAY!** 🙈<br/>*Did you just add 100? This isn't basic arithmetic class, it's an IQ challenge! Haha, try again! 🙃*
+    🤣 **HA! BUFFER OVERFLOW!** 💥<br/>*Way too big! Your variables leaked into memory! Haha, calculate cleanly! 🤪*
   </blockquote>
 </details>
 
@@ -94,13 +96,10 @@ What is the missing number in this sequence?
 <details>
 <summary><b>🔍 View Full Mathematical Proof & Explanation</b></summary>
 
-**Rule:** Multiply previous number by 2 and add 1.
-* `2 * 2 + 1 = 5`
-* `5 * 2 + 1 = 11`
-* `11 * 2 + 1 = 23`
-* `23 * 2 + 1 = 47`
-* `47 * 2 + 1 = 95`
-* `95 * 2 + 1 = 191`!
+**Identity:**
+* `A = 12`, `B = 25`
+* `A + B = 37`
+* In computer architecture: `(A ^ B) + 2*(A & B) = A + B = 37`!
 
 </details>
 <!-- IQ_PUZZLE_END -->
