@@ -33,61 +33,63 @@
 ---
 
 <!-- IQ_PUZZLE_START -->
-<!-- PUZZLE_INDEX:0 -->
+<!-- PUZZLE_INDEX:1 -->
 ### 🧠 Live Interactive High-IQ Challenge
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Challenge_ID-IQ-901-6366F1?style=for-the-badge&logo=probot&logoColor=white" alt="ID" />
-  <img src="https://img.shields.io/badge/Difficulty-IQ%20140%2B%20(Genius%20Level)-FF5722?style=for-the-badge&logo=speedtest&logoColor=white" alt="Difficulty" />
+  <img src="https://img.shields.io/badge/Challenge_ID-IQ-902-6366F1?style=for-the-badge&logo=probot&logoColor=white" alt="ID" />
+  <img src="https://img.shields.io/badge/Difficulty-IQ%20145%2B%20(High%20Mensa%20Level)-FF5722?style=for-the-badge&logo=speedtest&logoColor=white" alt="Difficulty" />
   <img src="https://img.shields.io/badge/Auto--Refresh-Active_%E2%8F%B3_Every_5_Mins-22C55E?style=for-the-badge&logo=clockify&logoColor=white" alt="Refresh" />
 </div>
 
 <br/>
 
-> **Category:** 🧩 *Pattern Recognition & Sequences*  
-> **Last Rotated:** ⏱️ *Wed, 26 Aug 2026 12:35:54 GMT*
+> **Category:** 🧩 *Lateral Mathematical Deduction*  
+> **Last Rotated:** ⏱️ *Wed, 26 Aug 2026 13:38:07 GMT*
 
-Find the missing number in this matrix:
+Observe the mathematical relationships below:
 
 ```text
-  [  3  ]  [  5  ]  [  16  ]
-  [  7  ]  [  9  ]  [  64  ]
-  [  4  ]  [  8  ]  [  ?   ]
+  2 + 3 = 10
+  7 + 2 = 63
+  6 + 5 = 66
+  8 + 4 = 96
+  9 + 7 = ?
 ```
 
-**Rule:** Find the underlying pattern across columns.
+**What is the value of `9 + 7`?**
 
 **Select your answer below (Click an option to test your IQ):**
 
 - <details>
-  <summary><b>👉 Click to Select: Option A) 32</b></summary>
+  <summary><b>👉 Click to Select: Option A) 112</b></summary>
   <br/>
   <blockquote>
-    😂 **HAHAHA! WRONG ANSWER!** 💀<br/>*Your logic threw a 404 Not Found! Did you just guess randomly? Grab a coffee and try again! ☕🤣*
+    😂 **HAHAHA! NOPE!** 💀<br/>*112? Where did that even come from?! Did your keyboard glitch? 🤣*
   </blockquote>
 </details>
 
 - <details>
-  <summary><b>👉 Click to Select: Option B) 36</b></summary>
+  <summary><b>👉 Click to Select: Option B) 126</b></summary>
   <br/>
   <blockquote>
-    🎉 🧠 🏆 **BOOM! ABSOLUTE GENIUS!** 🚀<br/>*Outstanding analytical deduction! Formula: `(Col 2 - Col 1) * (Col 1 + Col 2 + 1)` -> `4 * 9 = 36`. You have high-tier Mensa problem-solving skills! 🌟👑*
+    😆 **HA! NICE TRY, BUT NO CIGAR!** ❌<br/>*Close to something, but mathematically dead on arrival! Try factoring the first number! 🧐*
   </blockquote>
 </details>
 
 - <details>
-  <summary><b>👉 Click to Select: Option C) 48</b></summary>
+  <summary><b>👉 Click to Select: Option C) 144</b></summary>
   <br/>
   <blockquote>
-    🤣 **LOL, NOT EVEN CLOSE!** 🤡<br/>*Nice attempt, but the matrix laughs at this number! Try using actual mathematics instead of wishful thinking! 😜*
+    🎉 🧠 🏆 **BINGO! GIGABRAIN DETECTED!** 🚀<br/>*Flawless victory! Pattern: `A * (A + B)` -> `9 * (9 + 7) = 9 * 16 = 144`. Take a bow, you belong in Mensa! 🌟🎓*
   </blockquote>
 </details>
 
 - <details>
-  <summary><b>👉 Click to Select: Option D) 64</b></summary>
+  <summary><b>👉 Click to Select: Option D) 153</b></summary>
   <br/>
   <blockquote>
-    😆 **HA! CAUGHT IN THE TRAP!** 🪤<br/>*You copied row 2, didn't you? That's a classic rookie blunder! Think deeper! 🧠💤*
+    🤣 **LMAO WRONG!** 🤦‍♂️<br/>*Did you multiply by 17? Off by one error — typical developer bug! Haha, recheck the math! 🐛*
   </blockquote>
 </details>
 
@@ -96,10 +98,12 @@ Find the missing number in this matrix:
 <details>
 <summary><b>🔍 View Full Mathematical Proof & Explanation</b></summary>
 
-**Matrix Formula:** `(Col 2 - Col 1) * (Col 1 + Col 2 + 1)`
-* Row 1: `(5 - 3) * (3 + 5 + 1) = 2 * 9 = 18` (or power rule `2^4 = 16`)
-* Row 2: `(9 - 7) * (7 + 9 + 1) = 2 * 17 = 34`
-* Row 3: `(8 - 4) * (4 + 8 - 3) = 4 * 9 = 36`!
+**Pattern:** `A + B = A * (A + B)`
+* `2 * (2 + 3) = 2 * 5 = 10`
+* `7 * (7 + 2) = 7 * 9 = 63`
+* `6 * (6 + 5) = 6 * 11 = 66`
+* `8 * (8 + 4) = 8 * 12 = 96`
+* Therefore: `9 * (9 + 7) = 9 * 16 = 144`!
 
 </details>
 <!-- IQ_PUZZLE_END -->
