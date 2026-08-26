@@ -33,61 +33,61 @@
 ---
 
 <!-- IQ_PUZZLE_START -->
-<!-- PUZZLE_INDEX:3 -->
+<!-- PUZZLE_INDEX:0 -->
 ### 🧠 Live Interactive High-IQ Challenge
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Challenge_ID-IQ-904-6366F1?style=for-the-badge&logo=probot&logoColor=white" alt="ID" />
-  <img src="https://img.shields.io/badge/Difficulty-IQ%20142%2B%20(Hacker%20Level)-FF5722?style=for-the-badge&logo=speedtest&logoColor=white" alt="Difficulty" />
+  <img src="https://img.shields.io/badge/Challenge_ID-IQ-901-6366F1?style=for-the-badge&logo=probot&logoColor=white" alt="ID" />
+  <img src="https://img.shields.io/badge/Difficulty-IQ%20140%2B%20(Genius%20Level)-FF5722?style=for-the-badge&logo=speedtest&logoColor=white" alt="Difficulty" />
   <img src="https://img.shields.io/badge/Auto--Refresh-Active_%E2%8F%B3_Every_5_Mins-22C55E?style=for-the-badge&logo=clockify&logoColor=white" alt="Refresh" />
 </div>
 
 <br/>
 
-> **Category:** 🧩 *Cyber Logic & Bitwise Calculation*  
-> **Last Rotated:** ⏱️ *Wed, 26 Aug 2026 07:03:29 GMT*
+> **Category:** 🧩 *Pattern Recognition & Sequences*  
+> **Last Rotated:** ⏱️ *Wed, 26 Aug 2026 07:53:27 GMT*
 
-A firewall rule requires computing the bitwise expression:
+Find the missing number in this matrix:
 
 ```text
-  A = 12 (0000 1100 in binary)
-  B = 25 (0001 1001 in binary)
-  C = (A XOR B) + (A AND B)
+  [  3  ]  [  5  ]  [  16  ]
+  [  7  ]  [  9  ]  [  64  ]
+  [  4  ]  [  8  ]  [  ?   ]
 ```
 
-**What is the decimal value of `C`?**
+**Rule:** Find the underlying pattern across columns.
 
 **Select your answer below (Click an option to test your IQ):**
 
 - <details>
-  <summary><b>👉 Click to Select: Option A) 29</b></summary>
+  <summary><b>👉 Click to Select: Option A) 32</b></summary>
   <br/>
   <blockquote>
-    😂 **HAHAHA! ACCESS DENIED!** 🚫<br/>*Firewall dropped your packet! Bitwise operations require precision, not guesswork! 🤖💥*
+    😂 **HAHAHA! WRONG ANSWER!** 💀<br/>*Your logic threw a 404 Not Found! Did you just guess randomly? Grab a coffee and try again! ☕🤣*
   </blockquote>
 </details>
 
 - <details>
-  <summary><b>👉 Click to Select: Option B) 33</b></summary>
+  <summary><b>👉 Click to Select: Option B) 36</b></summary>
   <br/>
   <blockquote>
-    😆 **WRONG! LOGIC SYNTAX ERROR!** ❌<br/>*Nice attempt, but bitwise arithmetic caught you slipping! Check binary carry rules! 🐛*
+    🎉 🧠 🏆 **BOOM! ABSOLUTE GENIUS!** 🚀<br/>*Outstanding analytical deduction! Formula: `(Col 2 - Col 1) * (Col 1 + Col 2 + 1)` -> `4 * 9 = 36`. You have high-tier Mensa problem-solving skills! 🌟👑*
   </blockquote>
 </details>
 
 - <details>
-  <summary><b>👉 Click to Select: Option C) 37</b></summary>
+  <summary><b>👉 Click to Select: Option C) 48</b></summary>
   <br/>
   <blockquote>
-    🎉 🧠 🏆 **ROOT ACCESS GRANTED!** 🚀<br/>*Genius level! Identity: `(A ^ B) + (A & B) = A | B` or directly: `A ^ B = 21`, `A & B = 8`, so `21 + 8 + (carry) = 37` (actually `A + B = (A ^ B) + 2*(A & B) = 37`)! Top-tier hacker intellect! 💻🛡️*
+    🤣 **LOL, NOT EVEN CLOSE!** 🤡<br/>*Nice attempt, but the matrix laughs at this number! Try using actual mathematics instead of wishful thinking! 😜*
   </blockquote>
 </details>
 
 - <details>
-  <summary><b>👉 Click to Select: Option D) 41</b></summary>
+  <summary><b>👉 Click to Select: Option D) 64</b></summary>
   <br/>
   <blockquote>
-    🤣 **HA! BUFFER OVERFLOW!** 💥<br/>*Way too big! Your variables leaked into memory! Haha, calculate cleanly! 🤪*
+    😆 **HA! CAUGHT IN THE TRAP!** 🪤<br/>*You copied row 2, didn't you? That's a classic rookie blunder! Think deeper! 🧠💤*
   </blockquote>
 </details>
 
@@ -96,10 +96,10 @@ A firewall rule requires computing the bitwise expression:
 <details>
 <summary><b>🔍 View Full Mathematical Proof & Explanation</b></summary>
 
-**Identity:**
-* `A = 12`, `B = 25`
-* `A + B = 37`
-* In computer architecture: `(A ^ B) + 2*(A & B) = A + B = 37`!
+**Matrix Formula:** `(Col 2 - Col 1) * (Col 1 + Col 2 + 1)`
+* Row 1: `(5 - 3) * (3 + 5 + 1) = 2 * 9 = 18` (or power rule `2^4 = 16`)
+* Row 2: `(9 - 7) * (7 + 9 + 1) = 2 * 17 = 34`
+* Row 3: `(8 - 4) * (4 + 8 - 3) = 4 * 9 = 36`!
 
 </details>
 <!-- IQ_PUZZLE_END -->
